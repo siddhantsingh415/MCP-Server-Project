@@ -1,0 +1,10 @@
+{
+  "servers": {
+    "leave-manager": {
+      "type": "stdio",
+      "command": "uv",
+      "args": ["run", "--active", "mcp", "run", "main.py"],
+      "cwd": "${workspaceFolder}/MCP-Testing"
+    }
+  }
+}
